@@ -1,19 +1,19 @@
 [app]
 
 # (str) Title of your application
-title = TakePicture
+title = yeshiva
 
 # (str) Package name
-package.name = takepicture
+package.name = yeshiva
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.test.yeshiva
 
 # (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,png,jpg,kv,atlas,json
 
 # (list) Source files to exclude (let empty to not excluding anything)
 #source.exclude_exts = spec
@@ -35,7 +35,7 @@ requirements = kivy,android,pil
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = landscape
+orientation = portrait
 
 # (bool) Indicate if the application should be fullscreen or not
 fullscreen = 0
